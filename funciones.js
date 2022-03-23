@@ -96,3 +96,30 @@ function Separar(entrada){
 console.log(Separar("en erase un una lugar vez de en la terabitia mancha paso..."))
 
 
+// SepararPorToken Separa una frase por el token que se proporciona, solo la primera aparicion
+function SepararPorToken(entrada,token){
+    //declarar el arrays salida
+    let salida = []
+    //declarar la variable acumulador
+    let acumulador = ""
+    //iterar con bucle for utilizando la funcion len para definir la condición
+    for(i = 0; i<frase.length;i++){
+        if(entrada[i] == token[0] ){
+            salida = salida.push(acumulador)
+            acumulador = ""
+            // si no añadir a acumulador el string de la posición i de entrada
+        }else{
+            acumulador += frase[i]
+        }
+
+        //utilizar el condicional if, si acumulador no es igual a " ", utilizar la funcion append para añadir a salida acumulador
+        if( acumulador != " "){
+            salida = salida.push(acumulador)
+        }
+        //retornar salida
+        return salida
+  
+
+
+
+
