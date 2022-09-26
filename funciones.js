@@ -33,7 +33,7 @@ return salida
 
 // let frase1 = []
 // frase1 = (separarFrase("uno dos tres de ls proxima no funciona", ' '))
-// console.log(frase11)
+// console.log(fraseUno)
 // console.log(typeof frase1)
 
 
